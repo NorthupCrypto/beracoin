@@ -1,3 +1,4 @@
+require("@nomiclabs/hardhat-waffle");
 require("dotenv").config({ path: __dirname + "/.env" });
 
 const { PK } = process.env;
